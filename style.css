@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+    margin-top: 4rem;
+}
+#container{
+    text-align: center;
+}
+
+#date-of-birth{
+    display: block;
+    margin: 1rem auto;
+    border: 1px solid purple;
+}
+
+#output-text{
+    font-weight: bolder;
+}
+
+button{
+    width: auto;
+    color: purple;
+    border-radius: 0.5rem;
+    border: 1px solid purple;
+    background-color: purple;
+    color: white;
+}
