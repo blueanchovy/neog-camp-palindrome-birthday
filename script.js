@@ -161,4 +161,12 @@ clickHandler = () => {
 
 };
 
-checkButton.addEventListener('click', clickHandler);
+checkButton.addEventListener('click', () => {
+    console.log(dateOfBirth.value);
+    if(dateOfBirth.value === ''){
+        outputText.innerText = "Please enter you Birthdate before checking!";
+    }
+    else{
+        clickHandler();
+    }  
+});
